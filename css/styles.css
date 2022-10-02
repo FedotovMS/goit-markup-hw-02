@@ -210,3 +210,13 @@ address {
         /* or 171% */
         letter-spacing: 0.03em;
 }
+/* portfolio page */
+
+/* filter */
+.filter li {
+    list-style: none;
+}
+.filter li button:hover {
+    background-color: var(--link-hover-color);
+    color: #FFFFFF; 
+}
