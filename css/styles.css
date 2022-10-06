@@ -4,23 +4,27 @@
     --primary-link-color: #212121;
     --link-hover-color: #2196f3;
 }
+a {
+    cursor: pointer;
+}
 /* background color */
 body {
     background-color: #ffffff;
     color: var(--primary-text-color);
     font-family: 'Roboto';
-        font-style: normal;
+    font-style: normal;
+    font-weight: 400;
 }
 /* logo */
 .logo-link {
-        text-decoration: none;
-        font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 26px;
-            line-height: 31px;
-            /* identical to box height */
-            letter-spacing: 0.03em;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 1.2;
 }
 .logo-blue {
     color: var(--link-hover-color);
@@ -39,9 +43,9 @@ body {
     text-decoration: none;
     color: var(--primary-link-color);
     font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.1;
 }
 .site-nav a:hover {
 color: var(--link-hover-color);
@@ -55,11 +59,11 @@ ul.contacts {
 color: var(--primary-text-color);
 }
 ul.contacts>li {
-display: inline-block;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.1;
 }
 .cont-email:hover { 
     color:var(--link-hover-color);
@@ -75,7 +79,7 @@ letter-spacing: 0.02em;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    letter-spacing: 0.06em;
+    letter-spacing: 1.4;
     text-transform: uppercase;
     
 }
@@ -94,7 +98,7 @@ letter-spacing: 0.02em;
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.06em;
+    letter-spacing: 1.9;
     color: #ffffff;
     float: flex;
     margin: 0 auto;
@@ -112,7 +116,7 @@ letter-spacing: 0.02em;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.03em;
+    letter-spacing: 1.1;
     text-transform: uppercase;
 }
 .page li {
@@ -121,11 +125,10 @@ letter-spacing: 0.02em;
     vertical-align: top;
     font-size: 14px;
     margin-right: 30px;
-    font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        /* or 171% */
-        letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 1.7;
 }
 /* our activities */
 .activities {
@@ -135,10 +138,10 @@ letter-spacing: 0.02em;
     text-align: center;
     color: var(--primary-title-color);
     font-weight: 700;
-        font-size: 36px;
-        line-height: 42px;
-        text-align: center;
-        letter-spacing: 0.03em;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 1.2;
 }
 .activities li {
     display: inline-block;
@@ -158,27 +161,26 @@ letter-spacing: 0.02em;
         font-size: 36px;
         line-height: 42px;
         text-align: center;
-        letter-spacing: 0.03em;
+        letter-spacing: 1.2;
 }
 .team h3 {
     font-weight: 500;
-        font-size: 16px;
-        line-height: 19px;
-        /* identical to box height */
-        text-align: center;
-        letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 1.2;
 }
 .team li {
     display: inline-block;
 }
 .team p {
     text-align: center;
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        /* identical to box height */
-        text-align: center;
-        letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 1.2;
 }
 /* footer */
 .footer {
@@ -196,19 +198,17 @@ letter-spacing: 0.02em;
 }
 address {
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
         /* or 171% */
-        letter-spacing: 0.03em;
+    letter-spacing: 1.7;
 }
 .footer-contacts {
-    font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        /* or 171% */
-        letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 1.7;
 }
 /* portfolio page */
 
@@ -219,4 +219,21 @@ address {
 .filter li button:hover {
     background-color: var(--link-hover-color);
     color: #FFFFFF; 
+}
+button {
+    cursor: pointer;
+}
+ul h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: var(--primary-title-color);
+    letter-spacing: 2;
+}
+.filter-text p {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    letter-spacing: 1.9;
 }
