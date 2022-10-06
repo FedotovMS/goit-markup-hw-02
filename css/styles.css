@@ -215,6 +215,7 @@ address {
 /* filter */
 .filter li {
     list-style: none;
+    display: inline;
 }
 .filter li button:hover {
     background-color: var(--link-hover-color);
@@ -230,7 +231,7 @@ ul h3 {
     color: var(--primary-title-color);
     letter-spacing: 2;
 }
-.filter-text p {
+.filter-cards p {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 30px;
