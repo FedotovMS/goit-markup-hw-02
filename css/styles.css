@@ -235,7 +235,6 @@ ul h3 {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.9;
-    /* identical to box height, or 188% */
 }
 .filter-cards {
     list-style-type: none;
